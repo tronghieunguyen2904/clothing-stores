@@ -1,0 +1,117 @@
+:root{
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+}
+.header-container {
+    width: 100%;
+    height: 113px;
+    border-bottom: 1px solid #ddd;
+}
+.header-body {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 100% !important;
+    margin: 0px !important;
+    padding: 0 20px;
+  }
+  .header-logo,
+  .header-list,
+  .header-user {
+    width: 33.3333333%;
+  }
+  .header-list {
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    p {
+      cursor: pointer;
+    }
+    p:hover {
+      color: var(--text-hover);
+    }
+  }
+  .header-user {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .header-user-icon {
+    margin: 0 20px;
+    font-size: 20px !important;
+    cursor: pointer;
+  }
+  /* Footer */
+  .footer-container {
+    display: flex;
+    align-items: center;
+    height: 370px;
+    background-color: #f9f9f9;
+    padding: 0px 68px;
+    margin-top: 100px;
+    border-top: 0.5px solid #dcdcdc;
+  }
+  .footer-body {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-body img{
+    width: 179px;
+    height: 34px;
+  }
+  .footer-body-left {
+    img {
+      width: 179px !important;
+      height: 34px !important;
+      object-fit: cover;
+    }
+    p {
+      font-size: 14px;
+      line-height: 21px;
+      color: #777777;
+    }
+  }
+  .footer-icon {
+    margin: 10px 45px 0px 0px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .footer-body-right {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .footer-body-right-body {
+    padding: 0px 12px;
+    h4 {
+      margin: 0px;
+      padding: 0px;
+      color: #222;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 18px;
+    }
+  
+    div {
+      display: flex;
+      flex-direction: column;
+      color: #777777;
+      margin-top: 25px;
+      a {
+        height: 34px;
+        font-size: 14px;
+      }
+      li {
+        list-style-type: none;
+        font-size: 14px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  .mr{
+      margin-right: 10px;
+  }
+  
